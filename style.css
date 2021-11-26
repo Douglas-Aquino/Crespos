@@ -9,9 +9,9 @@
 
 }
 body{
-    background-color: rosybrown;
+    background-color: white;
     position: relative;
-    height: 500vh;
+    height: 670vh;
 }
 .logo{
     display: flex;
@@ -114,6 +114,7 @@ header{
 }
 .first-img img{
     width:40vw;
+    
 }
 .first-img{
     position: relative;
@@ -148,7 +149,7 @@ header{
 .first-contain{
     position: relative;
     width: 30vw;
-    height:47vh;
+    height:50vh;
     background-color: #9767A9;
     display: flex;
     flex-direction:column;
@@ -156,6 +157,7 @@ header{
     position: relative;
     top: -10vh;
     left: 10vw;
+    
 }
 .container{
      height:90vh;
@@ -163,6 +165,7 @@ header{
     position:relative;
     top:0;
     left:3vw;
+    
 }
 .container-two{
     height:5vh;
@@ -184,13 +187,133 @@ header{
     display: flex;
     flex-direction:column;
     align-items: center;
-    position: relative;
     top:0vh;
     left: 10vw;
 }
 .container-three{
+    width: 30%;
     position: relative;
-    top:0;
+    top:10vh;
     left:3vw;
+    
+}
+.first-title-four{
+    color: #FFFFFF;
+    height: 10vh;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5vh;
+    display: flex;
+    align-items: center;
+    
+}
+.first-text-four{
+    height:20vh;
+    color: white;
+    margin:4vh;
+    position: relative;
+    top:-5vh;
+    left:0;
+    
+    
+}
+.container-four{
+    height:5vh;
+    width: 40%;
+    position: relative;
+    left:45vw;
+    top:-25vh;
+}
+.container-five{
+    height:5vh;
+    width: 40%;
+    position: relative;
+    left:3vw;
+    top:35vh;
+}
+
+.first-text-six{
+    height:50vh;
+    width: 90%;
+    
+    color: white;
+}
+.first-contain-six{
+    position: relative;
+    width: 30vw;
+    height:45vh;
+    background-color: #9767A9;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    top:0vh;
+    left: 10vw;
+}
+.container-six{
+    height:55vh;
+    width: 40%;
+    position: relative;
+    left:45vw;
+    top: 95vh;
+}
+
+.first-contain-seven{
+    position: relative;
+    width: 30vw;
+    height:40vh;
+    background-color: #9767A9;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    top:-5vh;
+    left: 10vw;
 
 }
+.first-text-seven{
+    height:50vh;
+    width: 90%;
+    
+    color: white;
+    
+}
+.container-seven{
+    height:5vh;
+    width: 40%;
+    position: relative;
+    left:3vw;
+    top:100vh;
+}
+.fio{
+    width: 40vw;
+    
+    position: relative;
+    bottom:-160vh;
+    left:55vw;
+}
+
+.fotos{
+    width:80vw;
+    height:70vh;
+    background-color: red;
+    position: relative;
+    bottom:-190vh;
+    left:10vw;
+}
+
+.footer-text{
+    color: white;
+    font-size: 1.5vh;
+}
+footer{
+    border:solid hotpink;
+    width: 100%;
+    height: 10vh;
+    background-color:#9767A9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
