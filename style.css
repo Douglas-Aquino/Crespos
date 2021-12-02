@@ -13,13 +13,13 @@ body{
 }
 
 .logo img{
-    width: 8.7vw;
+    width: 7.7vw;
 
 }
 .list-intro li{
     height: 2vw;
     text-transform: capitalize;
-    font-size: 1.2vw;
+    
     color: #9767A9;
 }
 .list-intro li:hover{
@@ -28,11 +28,13 @@ body{
 
 }
 .list-intro ul{
-    height:1.5vw;
+    font-size:1.3vw;
+    height:3vw;
     width:50vw;
     display: flex;
     justify-content:space-around;
     align-items: center;
+    
 }
 .form-intro img{
     width:1vw;
@@ -74,13 +76,15 @@ header{
     align-items: center;
     z-index:100;
     
+    
 }
 .img-main img{
-   width:100vw; 
+   width:100%; 
     
 }
 .img-main{
-    background-size:contain;
+    width:100%;
+    background-size:cover;
     background-repeat: no-repeat;
     background-color:#9767A9;
 
@@ -158,7 +162,7 @@ header{
 .first-contain{
     position: relative;
     width: 30vw;
-    height:28vw;
+    height:34vw;
     background-color: #9767A9;
     display: flex;
     flex-direction:column;
@@ -180,9 +184,6 @@ header{
     width:40vw;
 }
 .two-img{
-    position: relative;
-    top:0vw;
-    right:1vw;
     width:40.5vw;
 }
 .two-title{
@@ -198,7 +199,7 @@ header{
 }
 .two-contain{
     width: 30vw;
-    height:25vw;
+    height:30vw;
     background-color: #9767A9;
     display: flex;
     align-items: center;
@@ -209,14 +210,17 @@ header{
     
 }
 .container-two{
-    height:55vw;
-    width:45vw;
-    position:absolute;
-    top:98vw;
-    left:49vw;
+    position: relative;
+    width:30vw;
+    height:16vw;
+    background-color: #9767A9;
     display: flex;
     align-items: center;
     flex-direction:column;
+    position: relative;   
+    top:-45vw;
+    left:57vw; 
+    color: #FFFFFF;   
 }
 
 .three-img img{
@@ -245,7 +249,7 @@ header{
 .three-contain{
     position: relative;
     width:30vw;
-    height:16vw;
+    height:20vw;
     background-color: #9767A9;
     display: flex;
     align-items: center;
@@ -263,7 +267,7 @@ header{
     display: flex;
     flex-direction:column;
     align-items: center;
-    top:132vw;
+    top:120vw;
     left:5vw;
 }
 
@@ -309,7 +313,7 @@ header{
     width:40vw;
     position:absolute;
     left:52vw;
-    top:160vw;
+    top:140vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -353,9 +357,9 @@ header{
 .container-five{
     height:57vw;
     width:42vw;
-    position:absolute;
+    position:relative;
     left:10vw;
-    top:193vw;
+    top:40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -401,9 +405,9 @@ header{
 .container-six{
     height:47vw;
     width:42vw;
-    position:absolute;
+    position:relative;
     left:51vw;
-    top:225vw;
+    top:15vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -437,7 +441,7 @@ header{
 }
 .seven-contain{
     width: 30vw;
-    height:17vw;
+    height:30vw;
     background-color: #9767A9;
     display:flex;
     align-items: center;
@@ -451,9 +455,9 @@ header{
 .container-seven{
     height:47vw;
     width:42vw;
-    position:absolute;
+    position:relative;
     left:10vw;
-    top:258vw;
+    top:0vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -464,8 +468,8 @@ header{
 }
 .fio{
     width:40vw;
-    position:absolute;
-    top:280vw;
+    position:relative;
+    top:-15vw;
     left:55vw;
 }
  
@@ -535,8 +539,8 @@ header{
 .fotos{
     width:90vw;
     height:45vw;
-    position:absolute;
-    top:310vw;
+    position:relative;
+    top:0vw;
     left:5vw;
     display: flex;
 }
@@ -564,23 +568,20 @@ header{
     width: 30vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 footer{
-    border:solid hotpink;
     width: 100%;
     height:7vw;
     background-color:#9767A9;
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    position: absolute;
-    top:360vw;
-    left:0 ;
+    justify-content:space-evenly;
 }
 @media (min-width:320px) and (max-width:425px){
     .logo img{
-        width:13vw;
+        width:2rem;
     }
     .list-intro{
         display: none;
@@ -598,7 +599,7 @@ footer{
     }
     body{
         width:100%;
-        background-color: blue;
+        background-color: #FFFFFF;
     }
     header{
         width:100vw;
@@ -610,16 +611,18 @@ footer{
     }
     .img-main img{
         width:100vw;
+        height:40vh;
+       
     }
     .img-main{
-        height: auto;
         width:100vw;        
-        background-size:contain;
+        background-size:cover;
     }
     .title-intro{
         width:40vw;
-        height:30vw;
-        font-size:10vw;
+        height:20vw;
+        font-size:7vw;
+        
         
     }
     .title-intro-two{
@@ -627,13 +630,15 @@ footer{
         height:20vw;
         width:50vw;
         position:absolute;
-        top:50vw;
+        top:40vw;
         left:10vw;
     }
     .title-text{
         height:25%;
         width:85%;
-        font-size:5vw; 
+        font-size:5vw;
+        
+        
     }
     .text p{
         margin:2vw;
@@ -643,49 +648,314 @@ footer{
         width:85%;
         height:70%;  
         font-size: 3vw;
+        
     }
     .div-text{
+        width:100vw;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         height:70vw;
+        
     }
     .first-img img{
-        width:100vw;
+        width:80vw;
+        top:10vh;
     }
     .first-img{
+        
         position: relative;
         top:10vw;
-        left:-10vw;
-        width:100vw;
+        left:0vw;
+        width:80vw;
         position:none;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .first-title{
         width:80vw;
         font-size:5vw;
-        height:20vw;
+        height:10vw;
+        
+        
     }
-    .first-text p{
+    .first-text p{ 
+        font-size: 1.5vw;
         margin: 1.5vw;
     }
     .first-text{
-        width:80vw;
-        height:90vw;
+        margin-top:5vw;
+        width:90vw;
+        height:35vw;
         font-size:4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
-        top:-10vw;
+        top:-5vw;
         left:0;
+        
+         
     }
     .first-contain{
         position: relative;
         top:0;
-        left:-10vw;
+        left:0vw;
         width:100vw;
+        height:60vw;
+        display: flex;
+    }
+    .container{
         height:130vw;
+        width:100vw;
+        position: relative;
+        top:0;
+        left: 0;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+    .two-img img{
+        width:80vw;
+        top:0vh;
+    }
+    .two-img{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .two-title{
+        width:80vw;
+        font-size:5vw;
+        height:15vw;
+       
+    }
+    .two-contain{
+        width: 100vw;
+        height:30vh;
+        display: flex;
+        justify-content:space-around;
+        position:relative;
+        top:-5vw;
+        left:0;   
+    }
+    .container-two{
+        background-color: #FFFFFF;
+        width:100vw;
+        height:120vw;
+        position:relative;
+        top:0vh;
+        left:0;
+       
+    }
+    .three-img img{
+        width:80vw; 
+    }
+    .three-img{
+        position: relative;
+        top:0;
+        left:-20vw;
+    }
+    .three-title{
         display: flex;
         align-items: center;
+        justify-content: center;
+        width:80vw;
+        height:20vw;
+        font-size:5vw;
+       
+    }
+    .three-text{
+        width:90vw;
+        height:30vw;
+        font-size:1.5vw;
+    }
+    .three-contain{
+        width: 100vw;
+        height:45vw;
+        position: relative;
+        top:-10vw;
+        left:0;
+    }
+    .container-three{
+        width: 100%;
+        height:120vw;
+        align-items: center;
+        justify-content:space-between;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+    .four-img img{
+        width:80vw;
+    }
+    .four-title{
+        width:80vw;
+        height:15vw;
+        font-size:5vw;
+    }
+    .four-text{
+        font-size: 1.5vw;
+        height:35vw;
+    }
+    .four-contain{
+        width: 100vw;
+        height:52vw;
+        display: flex;
+        justify-content: start;
+    }
+    .container-four{
+        width: 100vw;
+        height:120vw;
+        display: flex;
+        position: relative;
+        top: 0;
+        left:0;
+    }
+
+    .five-img img{
+        width:80vw;
+    }
+    .five-img{
+        position: relative;
+        top:0vw;
+        left:0vw;  
+    }
+    .five-title{
+        width:80vw;
+        font-size:5vw;
+        
+    }
+    .five-text{
+        height:40vw;
+        font-size:1.5vw;
         
         
     }
-    
+    .five-contain{
+        width:100vw;
+        height:55vw;
+        position: relative;
+        top:-5vw;
+        left:0vw;
+       
+    }
+    .container-five{
+        width:100vw;
+        height:125vw;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    .six-img img{
+        width:80vw;
+    }
+    .six-title{
+        width:80vw;
+        height:15vw;
+        font-size:5vw;
+        
+    }
+    .six-text{
+        font-size:1.5vw;
+        width:90vw;
+        height:35vw;
+        
+    }
+    .six-contain{
+        width:100vw;
+        height:55vw;
+    }
+    .container-six{
+        
+        width:100vw;
+        height:115vw;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .seven-img img{
+        width:80vw;
+    }
+    .seven-title{
+        width:80vw;
+        height: 15vw;
+        font-size:5vw;
+        
+    }
+    .seven-text{
+        font-size: 1.5vw;
+        width:90vw;
+        height:33vw;
+        
+    }
+    .seven-contain{
+        display: flex;
+        justify-content: start;
+        height:53vw;
+        width:100vw;
+
+    }
+    .container-seven{
+        width:100vw;
+        height:123vw;
+        position: relative;
+        top: 0;
+        left:0;
+    }
+
+    .fio img{
+        width:65vw;
+    }
+    .fio{
+        width: 100vw;
+        height: 25vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top:0;
+        left:0;
+        border: solid black;
+        background-color: cyan;
+    }
+
+    .fotos{
+        margin-top:5vw;
+    }
+    .todos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-text{
+        font-size:0.5vw;
+        color: black;
+    }
+    .div-footer img{
+        background-color: #9767A9;
+        width:5vw;
+        border-radius:50%;
+        display: flex;
+    }
+    .div-footer p{
+        display: none;
+    }
+    footer{
+        display:flex;
+        flex-direction: column-reverse;
+        background-color:#FFFFFF;
+        
+        width: 100vw;
+        height:50vw;
+        border: solid black;
+    }
 }
