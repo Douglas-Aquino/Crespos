@@ -79,11 +79,14 @@ header{
     
 }
 .img-main img{
-   width:100%; 
+   width:50%;
+   height: 80vw; 
     
 }
 .img-main{
+    background-image: url("./imgs/cabeludo.png");
     width:100%;
+    height:40vw;
     background-size:cover;
     background-repeat: no-repeat;
     background-color:#9767A9;
@@ -552,10 +555,12 @@ header{
 }
 .pag-div{
     width:20vw;
+    height:7vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
+
 .pag-text{
     width:2vw;
     color: white;
@@ -563,13 +568,22 @@ header{
 
 .div-footer img{
     width:2vw;
+    
+    
 }
 .div-footer{
-    width: 30vw;
+    width: 35vw;
+    height: 7vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
+}
+.div-footer :hover{
+    background-color: #AC95BB;
+}
+.emoji-footer{
+    display: none;
 }
 footer{
     width: 100%;
@@ -610,13 +624,16 @@ footer{
         
     }
     .img-main img{
-        width:100vw;
-        height:40vh;
        
+       width:100%;
     }
     .img-main{
-        width:100vw;        
+        background-image: url("./imgs/cabeludo.png");
+        width:100%;
+        height:65vw;
         background-size:cover;
+        
+          
     }
     .title-intro{
         width:40vw;
@@ -925,37 +942,123 @@ footer{
         position: relative;
         top:0;
         left:0;
-        border: solid black;
-        background-color: cyan;
-    }
-
-    .fotos{
-        margin-top:5vw;
+       
     }
     .todos{
         display: flex;
         flex-wrap: wrap;
     }
+
+    .img-1{
+        width:40vw;
+        height:60vw;
+    }
+    .img-2{
+        width:22vw;
+        height:22vw;
+    }
+    .img-3{
+        width:72vw;
+        height:72vw;
+        position: relative;
+        top:120vw;
+        right:10vw;
+    }
+    .img-4{
+        position: relative;
+        top:120vw;
+        left:-90vw;
+       
+       
+    }
+    .img-5{
+        width: 21vw;
+        height: 20vw;
+        position: relative;
+        top:172vw;
+        left:-112vw; 
+    }
+    .img-6{
+        position:absolute;
+        top:63vw;
+        right:100vw;
+        width:83vw;
+        height: 50vw;
+        
+    }
+    .img-7{
+        position:absolute;
+        top:-0.1vw;
+        left:62vw;
+        width:20vw;
+        height:20vw;
+    }
+    .img-8{
+        position: absolute;
+        top:20vw;
+        left: 42vw;
+        width: 40vw;
+        height: 40vw;
+    }
+    .img-9{
+        position: absolute;
+        top:172vw;
+        left:27vw;
+        width:20vw;
+        height:20vw;
+    }
+    .img-10{
+        position: absolute;
+        top:120vw;
+        left:26vw;
+        width:20vw;
+        height:45vw;
+    }
+    .fotos{
+        width:80vw;
+        height:200vw;
+        display: flex;
+    }
+    
+    .emoji-footer img{
+        width:10vw;
+    }
+    .emoji-footer{
+        display:flex;
+        justify-content:space-around;
+        width:35vw;
+        
+       
+    }
+    .duplo-img{
+        width:90vw;
+        height:15vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .footer-text{
+        width: 80vw;
         font-size:0.5vw;
-        color: black;
+        color: black
     }
     .div-footer img{
         background-color: #9767A9;
-        width:5vw;
+        width:5.5vw;
         border-radius:50%;
-        display: flex;
+        
+       
     }
     .div-footer p{
         display: none;
+     
     }
     footer{
         display:flex;
         flex-direction: column-reverse;
+        justify-content: center;
         background-color:#FFFFFF;
-        
         width: 100vw;
-        height:50vw;
-        border: solid black;
+        height:40vw;
     }
 }
